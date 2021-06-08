@@ -1,0 +1,202 @@
+@media (max-width: 320px){
+    .application{
+        color: white;
+        background-color: $bg-color;
+        width: 320px;
+        height: 950px;
+        position: relative;
+        
+        & .application__form{
+            padding: 0px;
+            padding-top: 60px;
+        }
+        
+    }
+    .application__form-img{
+        display: block;
+        width: 320px;
+        height: 100%;
+        background: rgb(255, 255, 255);
+        text-align: center;
+       padding-top: 132px;
+       background: rgb(255, 255, 255);
+        overflow: hidden;
+        position: relative;
+        & .application__form-img-text{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 130%;
+        padding-left: 0px;
+        overflow: hidden;
+        letter-spacing: 1px;
+        color: black;
+        }
+        & .elipse1{
+            width: 202px;
+            height: 202px;
+            background: #428A60;
+            opacity: 1;
+            position: absolute;
+            border-radius: 50%;
+            margin-left: 40px;
+            margin-top: -60px;
+            box-sizing: border-box;
+        }
+        & .elipse2{
+            display: none;
+            
+        }
+        .application__form-img-text:first-child{
+            padding: 0px 0px 0px 0px;
+            position: absolute;
+            margin-top: -100px;
+            margin-left: 15px;
+        }
+        .application__form-img-text:last-child{
+            position: absolute;
+            margin-top: -287px;
+            margin-left: 248px;
+        }
+        & img{
+            width: 223px;
+            height: 122px;
+            padding-top: 0px;
+            padding-left: 0px;
+            position: relative;
+           margin-bottom: 65px;
+            
+        }
+    }
+    .application__form-offer{
+      
+        display: block;
+        width: 320px;
+        height: 100%;
+        margin-left: 0em;
+        text-align: -webkit-center;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        position: relative;
+        & .application__trusted{
+            display: block;
+        }
+        & .application__form-offer-text{
+           font-family: $font;
+            color: $text-color;
+            font-size: 30px;
+            width: 300px;
+            font-weight: 800;
+            text-align: center;
+            line-height: 39px;
+            padding: 29px 0px;
+            
+        }
+        & .application__form-offer-form{
+            background-color:  white;
+            height: 344px;
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 52px;
+            & input{
+                width: 280px;
+                height: 50px;
+                background: #E4E4E4;
+                background-color: #E4E4E4;
+                border: 1px solid #E4E4E4;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding-left: 10px;
+                font-family: 'Montserrat';
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 130%;
+                color: #212121;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+            & input:focus{
+                font-weight: 600;
+            }
+            & .telephone{
+                width: 174px;
+                margin-bottom: 38px;
+            }
+            & button{
+                width: 280px;
+                height: 50px;
+                background: #428A60;
+                border-radius: 5px;
+                font-family: $font;
+                font-size: 14px;
+                line-height: 130%;
+                color: white;
+                font-weight: 600;
+                transition: 1s ease;
+                &:hover{
+                    background: #5ebb85;
+                    transition: 1s ease;
+                }
+                & svg{
+                    margin-left: 0px;
+                    width: 26px;
+                }
+            }
+            & .font1{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 130%;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: $text-color;
+                span{
+                    color: #428A60;
+                }
+            }
+            & .application__form-offer-form-language{
+                display: inline-block;
+                cursor: pointer;
+                color: $text-color;
+                font-family: $font;
+                font-size: 14px;
+                font-weight: 600;
+                width: 96.18px;
+                margin-left: 2px;
+                background: #E4E4E4;
+                height: 50px;
+                padding: 15px 11px;
+                background: #E4E4E4;
+                border: 1px solid #E4E4E4;
+                box-sizing: border-box;
+                border-radius: 5px;
+                
+                
+                & .lang{
+                    display: inline-block; 
+                }
+            }
+            
+        }
+    }
+    & .application__trusted{
+       
+        background: #F8F8F8;
+        height: 40px;
+        
+        & .application__trusted-text{
+            font-family: $font;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18.2px;
+            color: black; 
+            display: inline-block;
+            padding-top: 11px;
+            padding-bottom: 11px;
+        }
+        & .svg{
+            display: inline-block;
+           
+        }
+    }
+}
